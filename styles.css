@@ -1,0 +1,92 @@
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}  
+.card{
+    height: 420px;
+    width: 650px;
+    border-left: 6px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 6px solid rgba(255, 255, 255, 0.6);
+    border-radius: 36px;
+    background: linear-gradient(125deg, rgb(255, 145, 0),rgb(119, 0, 255));
+    margin: auto;
+    margin-top: 15%;
+    box-shadow: -10px 10px 40px 5px #888888;
+}
+
+.logo{
+    border: 10px solid transparent;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+.numbercontainer{
+    border: 10px solid transparent;
+    margin-top: 160px;
+    margin-left: 25px;
+    width: 500px;
+    height: 81px;
+    overflow: auto;
+}
+
+.cardnumber1, .cardnumber2, .cardnumber3, .cardnumber4{
+    font-size: 28px;
+    font-weight: 700;
+    border: 10px solid transparent;
+    width: fit-content;
+    float: left;
+    color: aliceblue;
+}
+
+.nameexpirecontainer{
+    border: 10px solid transparent;
+    margin-left: 25px;
+    width: 500px;
+    height: 81px;
+    overflow: auto;
+    padding-left: 10px;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 700;
+    border-right: 10px solid transparent;
+    width: fit-content;
+    float: left;
+    color: aliceblue;
+}
+
+.expireDate{
+    font-size: 28px;
+    font-weight: 700;
+    border-left: 10px solid transparent;
+    width: fit-content;
+    float: left;
+    color: aliceblue;
+    padding-left: 75px;
+}
